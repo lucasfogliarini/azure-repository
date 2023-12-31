@@ -7,7 +7,7 @@ namespace Repository.Tests
 	{
 		protected override void AddServices(ServiceCollection serviceCollection)
 		{
-			var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=borastorage;AccountKey=ERbABtbzZiIN+fpYYIORlvpWEloBVv16Dj4ssp84Zo6fEYE6R8g9wvJaTxNPvFVGOyCpRj5HRKes+AStXcUEng==;EndpointSuffix=core.windows.net";
+			var storageConnectionString = "";
 			serviceCollection.AddAzureTablesRepository(storageConnectionString);
 		}
 
